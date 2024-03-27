@@ -31,3 +31,13 @@ Then by performing cross validation or employing metrics such as Mean Absolute E
 
 6. Model Tuning and Prediction  
 Lastly, we will tune a model and make predictions on the test dataset using this tuned model. Then, we predict a probability for the target score.
+
+## Data Explanation
+Goal of this competition is to predict risk qualty of clients (or to be precise applications of cients), soclient and his/her application is entity (case id) for which your model predict probability of default (credit score).
+
+(1) depth=0 (what we call static attributes) are attributes that are aggregated on case id level. Example can be age of client or gender, 1 record per 1 case id.
+(2) depth=1, those are attributes where we have several records per client/appication. Example can be previous appications or loans incredit bureau register, each client can have from 0 to n records, Therefore. for one case id there might be several records. and to indeythem we use num group1
+(3) depth=2: For some attributes with depth=1 we have more detailed information, for example for previous applications we have data abouiinstalments like date of pavments or days past due of each payments. lt means for each previous application, you can have 0..n recordsabout instalments/payments. And as an index is used num_group2
+
+To sum up, 1 client can have several previous applications, and each of those previous applicaions can have several records aboutinstalments, payments, days past due, etc.
+
