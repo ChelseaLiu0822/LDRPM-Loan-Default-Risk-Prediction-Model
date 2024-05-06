@@ -23,7 +23,7 @@ We will use some methods to examine the effect of feature importance and selecti
 
 5. Model Selection  
 **references**:  
-We will use different models, such as CatBoost, XGBoost and LightGBM. Then, we will evaluate the models by using AUC. 
+We will use different models, such as CatBoost, XGBoost and LightGBM. Then, we will evaluate the models by using AUC(Area Under the Receiver Operating Characteristic Curve). 
 
 6. Model Tuning and Prediction  
 Lastly, we will tune a model and make predictions on the test dataset using this tuned model. Then, we predict a probability for the target score.
