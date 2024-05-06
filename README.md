@@ -23,11 +23,7 @@ We will use some methods, such as PCA(Principal Component Analysis) to examine t
 
 5. Model Selection  
 **references**:  
-We will use different models, such as CatBoost, XGBoost and LightGBM. Then, we will evaluate the models by using a gini stability metric. First, we get the weekly gini scores:  
-gini= 2* AUC -1 	   (1)  
-Fitting the weekly gini scores, we obtain a linear regression a*x+b, which aids in obtaining the stability metric:  
-Stability metric = mean(gini) + 88.0*min(0,a) - 0.5 * std(residuals)	   (2)  
-Then by performing cross validation or employing metrics such as Mean Absolute Error (MAE) and Root Mean Square Error (RMSE), we will determine the best untuned model.
+We will use different models, such as CatBoost, XGBoost and LightGBM. Then, we will evaluate the models by using accuracy. 
 
 6. Model Tuning and Prediction  
 Lastly, we will tune a model and make predictions on the test dataset using this tuned model. Then, we predict a probability for the target score.
