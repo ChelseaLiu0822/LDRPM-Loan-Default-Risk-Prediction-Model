@@ -19,11 +19,11 @@ We will conduct outlier detection, figure out the data trend, and conduct correl
 Identify and incorporate pertinent features, such as deposit amount and incoming debit card transactions amount. Then we may need to employ aggregation functions that will condense the historical records associated with each “case_id” into a single feature.
 
 4. Feature Selection  
-We will use some methods, such as PCA(Principal Component Analysis) to examine the effect of feature importance and selecting only a certain number of the most important features on model performance.
+We will use some methods to examine the effect of feature importance and selecting only a certain number of the most important features on model performance.
 
 5. Model Selection  
 **references**:  
-We will use different models, such as CatBoost, XGBoost and LightGBM. Then, we will evaluate the models by using accuracy. 
+We will use different models, such as CatBoost, XGBoost and LightGBM. Then, we will evaluate the models by using AUC. 
 
 6. Model Tuning and Prediction  
 Lastly, we will tune a model and make predictions on the test dataset using this tuned model. Then, we predict a probability for the target score.
