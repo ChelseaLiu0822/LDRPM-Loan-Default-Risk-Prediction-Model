@@ -9,23 +9,22 @@ Original Data: /Data/OriginalData
 
 ## Objectives
 1. Data preprocessing  
-Processing missing value, duplicate values and encoding categorical variables (if necessary).  
-code:  DataPreprocessing.ipynb  
-results:CleaningData.zip  
-2. Exploratory data analysis  
+Processing missing value, duplicate values and encoding categorical variables (if necessary).
+ 
+3. Exploratory data analysis  
 We will conduct outlier detection, figure out the data trend, and conduct correlations analysis.
 
-3. Feature engineering  
+4. Feature engineering  
 Identify and incorporate pertinent features, such as deposit amount and incoming debit card transactions amount. Then we may need to employ aggregation functions that will condense the historical records associated with each “case_id” into a single feature.
 
-4. Feature Selection  
+5. Feature Selection  
 We will use some methods to examine the effect of feature importance and selecting only a certain number of the most important features on model performance.
 
-5. Model Selection  
+6. Model Selection  
 **references**:  
 We will use different models, such as CatBoost, XGBoost and LightGBM. Then, we will evaluate the models by using AUC(Area Under the Receiver Operating Characteristic Curve). 
 
-6. Model Tuning and Prediction  
+7. Model Tuning and Prediction  
 Lastly, we will tune a model and make predictions on the test dataset using this tuned model. Then, we predict a probability for the target score.
 
 ## Data Explanation
