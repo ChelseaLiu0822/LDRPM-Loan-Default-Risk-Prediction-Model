@@ -5,7 +5,7 @@ The Loan Default Risk Prediction Model project addresses a critical challenge in
 Link: https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/data  
 Dataset File Size: 26.76GB  
 Approximate Number of Records: ~1.5millions  
-Original Data: /Data/OriginalData 
+Original Data: /Data/OriginalData     
 **Prediction Results**: /Data/*results.csv
 
 ## Objectives
